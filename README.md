@@ -5,7 +5,7 @@ Template of a linear algebra teaching assistant platform made with react and ant
 ![homepage](https://github.com/yoboxiong/legendary-memory/blob/main/ScreenShots/%E6%8D%95%E8%8E%B7.PNG)
 ## login page
 You can try to log in with the following account since the login function is finished.
->username:admin
+>username:admin  
 >password:123456
 
 ![login page](https://github.com/yoboxiong/legendary-memory/blob/main/ScreenShots/%E7%99%BB%E5%BD%95.PNG)
