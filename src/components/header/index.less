@@ -1,0 +1,102 @@
+.header{
+    display: flex;
+    height: inherit;
+    white-space: nowrap; //强制一行显示
+    overflow: hidden; //超出隐藏
+    word-break: keep-all;  //换行不断词
+   .header-left{
+       width: 15%;
+       display: flex;
+       align-items: center;
+       img{
+           margin:0 15px;
+           width: 40px;
+           height: 40px;
+       }
+       h1{
+           margin-bottom: 0;
+           color: white;
+           font-size: 20px;
+       }
+   }
+   .header-middle{
+       width: 50%;
+       margin-left: 100px;
+       .ant-menu{
+           font-size: 20px;
+       }
+       
+   }
+   .header-right{
+       width: 35%;
+       display: flex;
+       align-items: center;
+       font-size: 20px;
+       div{ 
+           padding: 0 20px;
+           display: flex;
+           .header-right-button{
+               background-color: #001529;
+               color: white;
+               border: none;
+               cursor:pointer;
+               outline:none;
+           }
+       }
+       #login2{
+           display: none;
+       }
+       @media(max-width: 1000px){
+           //界面小于等于1000px的设备
+           span{
+               display: none;
+            }
+       }
+   }
+}
+body{margin:0;padding:0}
+.login-css{
+    .ant-modal-content {
+        border-radius:15px;
+        
+    }
+    .login-css-sheet{
+        padding: 35px;
+        .login-css-sheet-title{
+            margin-top: 10px;
+            font-size: 30px;
+            display: block;
+            text-align: center;
+            letter-spacing: 0.2em;
+            margin-bottom: 20px;
+        }
+        Input{
+            border-radius:20px;
+            height: 40px;
+        }
+        #loginsheet2{
+            display: none;
+        }
+    }   
+}
+.register-css{
+    .ant-modal-content {
+        border-radius:15px;
+        
+    }
+    .register-css-sheet{
+        padding: 35px;
+        .register-css-sheet-title{
+            margin-top: 10px;
+            font-size: 30px;
+            display: block;
+            text-align: center;
+            letter-spacing: 0.2em;
+            margin-bottom: 20px;
+        }
+        Input{
+            border-radius:20px;
+            height: 40px;
+        }
+    }   
+}
